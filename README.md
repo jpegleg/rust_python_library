@@ -14,3 +14,5 @@ app = Flask(__name__)
 def main():
     return rust_python_module_example.get_result('Hello!')
 ```
+
+In the docker_example directory, there is a template for building a docker image based on rust docker image, running the python app inside it.
